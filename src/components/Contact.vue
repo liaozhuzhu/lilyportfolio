@@ -22,7 +22,7 @@
             </div>
 
             <button type="submit">Send</button>
-            <p id="popup" v-if="showPopup">Email Sent!</p>
+            <p id="popup" style="opacity: 0">Email Sent!</p>
         </form>
     </div>
 </template>
@@ -40,7 +40,6 @@ export default {
             from_name: "",
             from_email: "",
             message: "",
-            showPopup: false,
         }
     },
     methods: {
@@ -62,10 +61,13 @@ export default {
         }
     },
     togglePopup() {
-        this.showPopup = true;
+        document.getElementById("popup").style.opacity=1;
         setTimeout(() => {
-            this.showPopup = false;
+            this.closePopup()
         }, 2000)
+    },
+    closePopup() {
+        document.getElementById("popup").style.opacity=0;
     }
   }
 }
@@ -80,5 +82,6 @@ export default {
     margin-top: 10px;
     color: lightgreen;
     font-size: 1.2rem;
+    transition: 0.25s;
 }
 </style>

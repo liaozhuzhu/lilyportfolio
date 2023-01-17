@@ -241,7 +241,6 @@ export default {
     font-weight: bold;
     font-size: 14px;
     font-style: normal;
-    line-height: 14px;
     margin-bottom: 10px;
     margin-top: 0px;
     text-align: left;
@@ -285,13 +284,12 @@ export default {
 }
 
 .contact-form button {
-  border-radius: 5px;
+    border-radius: 5px;
     color: #333333;
     font-family: arial;
     font-size: 16px;
     font-style: normal;
     font-weight: bold;
-    height: 40px;
     line-height: 40px;
     padding-left: 30px;
     padding-right: 30px;
@@ -299,6 +297,11 @@ export default {
     border: 1px solid rgba(51, 51, 51, 0.6);
     cursor: pointer;
     background-color: #ffffff;
+    transition: 0.1s;
+}
+
+.contact-form button:hover {
+    border-color: #dddddd;
 }
 
 /* ===== Masonary ===== */
