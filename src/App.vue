@@ -1,26 +1,450 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <Navbar />
+  <router-view />
+  <Footer/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Navbar from "@/components/Navbar.vue";
+import Footer from "@/components/Footer.vue";
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Navbar,
+    Footer
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+:root {
+    --blue: rgb(75, 91, 112);
+}
+
+/* ===== Global ===== */
+.fullheight {
+    height: 100vh;
+}
+
+.container-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.icon {
+    font-size: 1.5rem;
+    gap: 20px;
+}
+
+.icon a {
+    color: white;
+    transition: 0.3s ease-in;
+}
+
+.icon a:hover {
+    color: var(--blue);
+}
+
+.subtitle {
+    font-size: 3rem;
+}
+
+/* ===== Navbar ===== */
+.navbar {
+    position: sticky;
+    z-index: 1030;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--blue);
+    display: flex;
+    padding: 25px;
+    padding-block: 15px;
+    align-items: center;
+}
+
+.navbar div a {
+    text-decoration: none;
+}
+
+.navbar div a {
+    font-size: 2rem;
+}
+
+.navbar ul {
+    margin-left: auto;
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+
+.navbar ul a {
+    color: white;
+    opacity: 0.5;
+    transition: 0.2s;
+    text-decoration: none;
+}
+
+.navbar ul a:hover {
+    opacity: 1;
+}
+
+/* ===== Footer ===== */
+#footer {
+    gap: 10px;
+    margin-block: 15px;
+}
+
+#footer-links a{
+    font-size: 1.2rem;
+    color: black;
+    opacity: 0.5;
+    transition: 0.2s;
+}
+
+#footer-links a:hover {
+    opacity: 1;
+}
+
+#footer p {
+    opacity: 0.3;
+    font-size: 0.7rem;
+}
+
+#liao {
+    opacity: 1;
+    color: inherit;
+    text-decoration: none;
+}
+
+/* ===== Home ===== */
+#home {
+    width: 100%;
+    position: relative;
+}
+
+#home div {
+    line-height: 5rem;
+    color: white;
+    width: 100%;
+}
+
+#home h1 {
+    font-size: 5rem;
+    overflow-y: hidden;
+}
+
+#home video {
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    overflow: hidden;
+} 
+
+/* ===== About ===== */
+.page-header {
+    margin-left: 25px;
+    margin-right: auto;
+    max-width: 800px;
+    padding-top: 20px;
+    width: 100%;
+}
+
+.page-header h1 {
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 64px;
+    padding-bottom: 20px;
+    padding-top: 0px;
+    text-align: left;
+    text-transform: none;
+    width: 100%;
+    color: #111
+}
+
+#about {
+    margin: 25px;
+}
+
+.about-child {
+    width: 50%;
+    height: 100%;
+}
+
+#about p {
+    padding-right: 10px;
+    max-width: 100%;
+    text-align: left;
+    font-size: 2.7vh;
+    font-weight: 300;
+    line-height: 30px;
+    color: #333333;
+}
+
+#about img {
+    object-fit: cover;
+}
+
+#about-socials {
+    justify-content: left;
+    margin-block: 10px;
+}
+
+#about-socials a{
+    color: var(--blue) !important;
+    opacity: 0.5;
+}
+
+#about-socials a:hover {
+    opacity: 1;
+}
+
+/* ===== Contact ====== */
+.contact-form {
+  margin: 25px;
+  width: 500px;
+}
+
+.form-input {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.form-input label {
+  color: #333333;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 14px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    text-align: left;
+    text-transform: none;
+}
+
+.form-input input {
+  background-color: #ffffff;
+  color: #333333;
+  font-size: 18px;
+  margin-bottom: 30px;
+  margin-top: 0px;
+  padding-left: 10px;
+  text-align: left;
+  height: 50px;
+  padding-bottom: 13px;
+  padding-top: 13px;
+  resize: none;
+  border-radius: 3px;
+  border: 1px solid rgba(51, 51, 51, 0.6);
+}
+
+.form-input textarea {
+  background-color: #ffffff;
+  border: 1px solid rgba(51, 51, 51, 0.6);
+  border-radius: 3px;
+  color: #333333;
+  font-size: 18px;
+  margin-bottom: 30px;
+  margin-top: 0px;
+  padding-left: 10px;
+  text-align: left;
+  height: 200px;
+  padding-bottom: 13px;
+  padding-top: 13px;
+  resize: none;
+}
+
+.form-input input:focus, textarea:focus {
+  outline: none;
+}
+
+.contact-form button {
+  border-radius: 5px;
+    color: #333333;
+    font-family: arial;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bold;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-transform: none;
+    border: 1px solid rgba(51, 51, 51, 0.6);
+    cursor: pointer;
+    background-color: #ffffff;
+}
+
+/* ===== Masonary ===== */
+.container-grid {
+    position: relative;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-rows: minmax(100px, auto);
+    margin: 100px;
+    grid-auto-flow: dense;
+    grid-gap: 10px;
+    min-height: 100vh;
+}
+
+.container-grid .box {
+    position: relative;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    place-items: center;
+    color: #fff;
+    transition: 0.4s;
+    cursor: pointer;
+    border-radius: 20px;
+    border: 2px solid var(--blue);
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.4s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    background: transparent;
+    border-radius: 20px;
+}
+
+.container-grid .box:hover .overlay {
+    background: rgb(220, 220, 220);
+    background: rgb(75, 91, 112, 0.5);
+}
+
+.container-grid .box p {
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.container-grid .box:hover p {
+    opacity: 1;
+}
+
+.container-grid .box img {
+    position: relative;
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+
+.container-grid .box:nth-child(1) {
+    grid-column: span 2;
+    grid-row: span 1;
+}
+
+.container-grid .box:nth-child(2) {
+    grid-column: span 1;
+    grid-row: span 2;
+}
+
+.container-grid .box:nth-child(4) {
+    grid-column: span 1;
+    grid-row: span 2;
+}
+
+.container-grid .box:nth-child(5) {
+    grid-column: span 2;
+    grid-row: span 1;
+}
+
+.container-grid .box a {
+    text-decoration: none;
+    color: white;
+}
+
+.card-images {
+    background-position: center;
+    background-size: cover;
+    overflow-y: hidden;
+}
+
+#resume-card {
+    background-image: url(./static/images/resume.jpg);
+}
+
+#about-card {
+    background-image: url(./static/images/about.jpg);
+}
+
+#experience-card {
+    background-image: url(./static/images/experience.jpg);
+}
+
+#art-card {
+    background-image: url(./static/images/art.JPG);
+}
+
+#photography-card {
+    position: relative;
+}
+
+#graphicdesign-card {
+    background-image: url(./static/images/graphicdesign.PNG);
+}
+
+#contact-card {
+    background-image: url(./static/images/contact.JPG  );
+}
+
+.content-grid video {
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+/* ===== Media Query ===== */
+@media only screen and (max-device-width: 991px) {
+    #home {
+        background-attachment: scroll;
+    }
+    .container-grid {
+        grid-template-columns: repeate(auto-fill, minmax(50%, 1fr));
+        grid-template-rows: minmax(auto, auto);
+    }
+    .container-grid .box {
+        grid-column: unset !important;
+        grid-row: unset !important;
+    }
 }
 </style>
