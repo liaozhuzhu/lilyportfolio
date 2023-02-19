@@ -1,7 +1,7 @@
 <template>
     <div class="container-page">
         <div class="page-header container-flex">
-            <h1>Get in touch with me!</h1>
+            <h1 class="page-title">Get in touch with me!</h1>
         </div>
 
         <div class="container-flex column fullheight">

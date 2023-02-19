@@ -20,12 +20,13 @@ export default {
 <style>
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloock&family=Montserrat:wght@300;400;500;600;700&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Roboto", sans-serif;
+    font-family: 'Montserrat', sans-serif;
     scroll-behavior: smooth;
     overflow-x: hidden;
 }
@@ -108,6 +109,7 @@ export default {
     opacity: 0.6;
     transition: 0.2s;
     text-decoration: none;
+    font-weight: 500;
 }
 
 .navbar ul a:hover {
