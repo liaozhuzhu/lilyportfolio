@@ -206,6 +206,7 @@ export default {
 
 #about {
     margin: 25px;
+    margin-top: 7px;
 }
 
 .about-child {
