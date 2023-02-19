@@ -212,7 +212,7 @@ export default {
 }
 
 #about p {
-    padding-right: 10px;
+    padding-right: 65px;
     max-width: 100%;
     text-align: left;
     font-size: 2.7vh;
