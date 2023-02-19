@@ -103,7 +103,7 @@ export default {
 
 .navbar ul a {
     color: var(--blue);
-    opacity: 0.5;
+    opacity: 0.6;
     transition: 0.2s;
     text-decoration: none;
 }
