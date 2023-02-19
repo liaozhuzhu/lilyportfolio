@@ -35,6 +35,10 @@ export default {
 }
 
 /* ===== Global ===== */
+.container-page {
+    background-color: var(--white);
+}
+
 .fullheight {
     height: 100vh;
 }

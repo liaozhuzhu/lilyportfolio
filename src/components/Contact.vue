@@ -1,29 +1,31 @@
 <template>
-    <div class="page-header container-flex">
-        <h1>Get in touch with me!</h1>
-    </div>
+    <div class="container-page">
+        <div class="page-header container-flex">
+            <h1>Get in touch with me!</h1>
+        </div>
 
-    <div class="container-flex column fullheight">
-        <form class="contact-form container-flex column" @submit.prevent="sendEmail">
-            <div class="form-input">
-                <input type="hidden" value="Lily" name="to_name"/>
-            </div>
-            <div class="form-input">
-                <label for="name">Name *</label>
-                <input v-model="from_name" id="name" placeholder="Your name... " required autocomplete="off" name="from_name"/>
-            </div>
-            <div class="form-input">
-                <label for="email">Email *</label>
-                <input v-model="from_email" id="email" placeholder="Your email..." required name="from_email"/>
-            </div>
-            <div class="form-input">
-                <label for="message">Message *</label>
-                <textarea v-model="message" id="message" required placeholder="Your message..." name="message"></textarea>
-            </div>
+        <div class="container-flex column fullheight">
+            <form class="contact-form container-flex column" @submit.prevent="sendEmail">
+                <div class="form-input">
+                    <input type="hidden" value="Lily" name="to_name"/>
+                </div>
+                <div class="form-input">
+                    <label for="name">Name *</label>
+                    <input v-model="from_name" id="name" placeholder="Your name... " required autocomplete="off" name="from_name"/>
+                </div>
+                <div class="form-input">
+                    <label for="email">Email *</label>
+                    <input v-model="from_email" id="email" placeholder="Your email..." required name="from_email"/>
+                </div>
+                <div class="form-input">
+                    <label for="message">Message *</label>
+                    <textarea v-model="message" id="message" required placeholder="Your message..." name="message"></textarea>
+                </div>
 
-            <button type="submit">Send</button>
-            <p id="popup" style="opacity: 0">Email Sent!</p>
-        </form>
+                <button type="submit">Send</button>
+                <p id="popup" style="opacity: 0">Email Sent!</p>
+            </form>
+        </div>
     </div>
 </template>
       
