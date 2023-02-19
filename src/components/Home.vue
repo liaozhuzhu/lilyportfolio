@@ -38,7 +38,7 @@
             </a>
         </div>
         <div class="box card-images" id="resume-card">
-            <a href="/about" target="_blank">
+            <a href="./lilydosedel.pdf" target="_blank">
                 <div class="content-grid">
                     <div class="overlay">
                         <p class="subtitle">Resume</p>
