@@ -31,6 +31,7 @@ export default {
 
 :root {
     --blue: rgb(75, 91, 112);
+    --white: #fbfefb;
 }
 
 /* ===== Global ===== */
@@ -73,7 +74,8 @@ export default {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: var(--blue);
+    background-color: var(--white);
+
     display: flex;
     padding: 25px;
     padding-block: 15px;
@@ -96,7 +98,7 @@ export default {
 }
 
 .navbar ul a {
-    color: white;
+    color: var(--blue);
     opacity: 0.5;
     transition: 0.2s;
     text-decoration: none;
