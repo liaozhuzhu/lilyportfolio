@@ -8,7 +8,7 @@
             <div class="container-flex icon">
                 <a href="https://www.linkedin.com/in/lily-dosedel/" target="_blank"><fa icon="fa-brands fa-linkedin-in"/></a>
                 <a href="https://www.instagram.com/lil.dos/?hl=en" target="_blank"><fa icon="fa-brands fa-instagram"/></a>
-                <a href="mailto:lily-dosedel@uiowa.edu" target="_blank"><fa icon="fa-solid fa-envelope"/></a>
+                <a href="contact"><fa icon="fa-solid fa-envelope"/></a>
                 <a href="./lilydosedel.pdf" target="_blank"><fa icon="fa-solid fa-file"/></a>
             </div>
         </div>
@@ -107,12 +107,5 @@ export default {
 </script>
 
 <style scoped>
-.navbar {
-  background-color: white; 
-}
-
-.navbar ul a {
-    color: var(--blue);
-}
 </style>
   

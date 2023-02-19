@@ -154,6 +154,7 @@ export default {
     line-height: 5rem;
     color: white;
     width: 100%;
+    overflow-y: hidden;
 }
 
 #home h1 {
@@ -323,7 +324,63 @@ export default {
     border-color: #dddddd;
 }
 
-/* ===== Masonary ===== */
+/* ===== Experience ===== */
+#experience {
+    justify-content: left !important;
+    margin-inline: 25px;
+}
+
+/* make a 2x2 grid container */
+#experience-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    width: 100%;
+    height: 100%;
+    gap: 10px;
+    height: 75vh;
+    width: 100%;
+}
+
+
+.experience-item {
+    border-radius: 20px;
+    height: 100%;
+    padding: 15px;
+    position: relative;   
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid var(--blue);
+}
+
+.experience-item a {
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    color: var(--white);
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.experience-item p {
+    text-align: center;
+}
+
+.experience-item:hover a {
+    opacity: 1;
+}
+
+.experience-item:hover .overlay {
+    background: rgb(220, 220, 220);
+    background: rgb(75, 91, 112, 0.5);
+}
+
+#tippie-intern {
+    background-image: url(./static/images/tippie.JPG);
+}
+
+
+/* ===== Home ===== */
 .container-grid {
     position: relative;
     max-width: 100%;
@@ -458,6 +515,9 @@ export default {
 /* ===== Media Query ===== */
 @media only screen and (max-device-width: 991px) {
     #home {
+        background-attachment: scroll;
+    }
+    #experience {
         background-attachment: scroll;
     }
     .container-grid {
