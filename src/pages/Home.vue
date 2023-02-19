@@ -29,7 +29,7 @@
             </a>
         </div>
         <div class="box card-images" id="experience-card">
-            <a href="/about">
+            <a href="/experience">
                 <div class="content-grid">
                     <div class="overlay">
                         <p class="subtitle">Experience</p>
