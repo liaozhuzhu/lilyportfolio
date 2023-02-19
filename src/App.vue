@@ -19,6 +19,7 @@ export default {
 
 <style>
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
 
 * {
     margin: 0;
@@ -32,6 +33,7 @@ export default {
 :root {
     --blue: rgb(75, 91, 112);
     --white: #fbfefb;
+    --heading: 'Gloock', serif;
 }
 
 /* ===== Global ===== */
@@ -155,6 +157,9 @@ export default {
 #home h1 {
     font-size: 5rem;
     overflow-y: hidden;
+    height: 100%;
+    font-family: var(--heading);
+    letter-spacing: 7px;
 }
 
 #home video {
@@ -171,6 +176,11 @@ export default {
 } 
 
 /* ===== About ===== */
+.page-title {
+    font-family: var(--heading);
+    letter-spacing: 4px;
+}
+
 .page-header {
     margin-left: 25px;
     margin-right: auto;
@@ -189,7 +199,7 @@ export default {
     text-align: left;
     text-transform: none;
     width: 100%;
-    color: #111
+    color: #111;
 }
 
 #about {

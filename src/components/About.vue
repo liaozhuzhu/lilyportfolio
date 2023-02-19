@@ -1,7 +1,7 @@
 <template>
     <div class="container-page">
         <div class="page-header container-flex">
-            <h1>Hello!</h1>
+            <h1 class="page-title">Hello!</h1>
         </div>
         <div class="container-flex fullheight"  id="about">
             <div class="about-child" id="desc">
