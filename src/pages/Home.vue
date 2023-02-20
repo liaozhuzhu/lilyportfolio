@@ -14,7 +14,7 @@
         </div>
     </div>
 
-    <div class="container-grid">
+    <div class="container-grid" id="home-grid">
 
         <div class="box card-images">
             <a href="/about">

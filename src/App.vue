@@ -74,6 +74,10 @@ export default {
     font-size: 3rem;
 }
 
+.desc-link {
+    text-decoration: none;
+    color: var(--blue);
+}
 /* ===== Navbar ===== */
 .navbar {
     position: sticky;
@@ -379,7 +383,6 @@ export default {
     background-image: url(./static/images/tippie.JPG);
 }
 
-
 /* ===== Home ===== */
 .container-grid {
     position: relative;
@@ -390,10 +393,13 @@ export default {
     margin: 100px;
     grid-auto-flow: dense;
     grid-gap: 10px;
+}
+
+#home-grid {
     min-height: 100vh;
 }
 
-.container-grid .box {
+#home-grid .box {
     position: relative;
     padding: 20px;
     display: flex;
@@ -424,47 +430,47 @@ export default {
     border-radius: 20px;
 }
 
-.container-grid .box:hover .overlay {
+#home-grid .box:hover .overlay {
     background: rgb(220, 220, 220);
     background: rgb(75, 91, 112, 0.5);
 }
 
-.container-grid .box p {
+#home-grid .box p {
     opacity: 0;
     transition: 0.5s;
 }
 
-.container-grid .box:hover p {
+#home-grid .box:hover p {
     opacity: 1;
 }
 
-.container-grid .box img {
+#home-grid .box img {
     position: relative;
     max-width: 100px;
     margin-bottom: 10px;
 }
 
-.container-grid .box:nth-child(1) {
+#home-grid .box:nth-child(1) {
     grid-column: span 2;
     grid-row: span 1;
 }
 
-.container-grid .box:nth-child(2) {
+#home-grid .box:nth-child(2) {
     grid-column: span 1;
     grid-row: span 2;
 }
 
-.container-grid .box:nth-child(4) {
+#home-grid .box:nth-child(4) {
     grid-column: span 1;
     grid-row: span 2;
 }
 
-.container-grid .box:nth-child(5) {
+#home-grid .box:nth-child(5) {
     grid-column: span 2;
     grid-row: span 1;
 }
 
-.container-grid .box a {
+#home-grid .box a {
     text-decoration: none;
     color: white;
 }
@@ -520,11 +526,11 @@ export default {
     #experience {
         background-attachment: scroll;
     }
-    .container-grid {
+    #home-grid {
         grid-template-columns: repeate(auto-fill, minmax(50%, 1fr));
         grid-template-rows: minmax(auto, auto);
     }
-    .container-grid .box {
+    #home-grid .box {
         grid-column: unset !important;
         grid-row: unset !important;
     }

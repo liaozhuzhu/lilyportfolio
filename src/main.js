@@ -1,6 +1,8 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router'
+import VueVideoPlayer from '@videojs-player/vue'
+import 'video.js/dist/video-js.css'
 
 /* import the fontawesome core */
 import { library } from '@fortawesome/fontawesome-svg-core'
@@ -16,4 +18,4 @@ import {fab} from "@fortawesome/free-brands-svg-icons"
 /* add icons to the library */
 library.add(fas, far, fab)
 
-createApp(App).use(router).component("fa",FontAwesomeIcon).mount('#app')
+createApp(App).use(VueVideoPlayer).use(router).component("fa",FontAwesomeIcon).mount('#app')

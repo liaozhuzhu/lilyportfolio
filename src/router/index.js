@@ -4,6 +4,7 @@ import About from "@/pages/About.vue"
 import Contact from "@/pages/Contact.vue"
 import Experience from "@/pages/Experience.vue"
 import TippieMarketingIntern from "@/pages/TippieMarketingIntern.vue"
+import BlackInBusiness from "@/pages/BlackInBusiness.vue"
 
 const routes = [
 	{
@@ -30,7 +31,12 @@ const routes = [
 		path: "/tippie-marketing-intern",
 		name: "TippieMarketingIntern",
 		component: TippieMarketingIntern
-	}
+	},
+	{
+		path: "/black-in-business",
+		name: "BlackInBusiness",
+		component: BlackInBusiness
+	},
 ]
 
 
