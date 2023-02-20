@@ -111,5 +111,9 @@ export default {
 #black-in-business-card {
     background-image: url(../static/images/bib.png);
 }
+
+#grounded-card {
+    background-image: url(../static/images/tihisg.jpg);
+}
 </style>
   

@@ -519,6 +519,7 @@ export default {
 
 /* ===== Media Query ===== */
 @media only screen and (max-device-width: 991px) {
+    /* ===== Pages ===== */
     #home {
         background-attachment: scroll;
     }

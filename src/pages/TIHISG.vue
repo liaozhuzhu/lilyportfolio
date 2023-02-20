@@ -1,7 +1,8 @@
 <template>
     <div class="container-page">   
         <div class="page-header container-flex">
-            <h1 class="page-title">#ThisIsHowIStayGrounded Campaign</h1>
+            <h1 class="page-title" v-if="windowWidth >= 901">#ThisIsHowIStayGrounded Campaign</h1>
+            <h1 class="page-title" v-else>#TIHISG Campaign</h1>
         </div>
         <div class="container-flex column" id="tihisg">
             <div class="experience-about">
@@ -110,6 +111,28 @@ export default defineComponent({
         document.title = "#TIHISG | Lily Dosedel"
     },
     name: "TIHISG",
+    data() {
+    return {
+      windowWidth: window.innerWidth
+    }
+  },
+
+  mounted() {
+    this.$nextTick(() => {
+      window.addEventListener('resize', this.onResize);
+    })
+  },
+
+  beforeUnmount() { 
+    window.removeEventListener('resize', this.onResize); 
+  },
+
+  methods: {  
+    onResize() {
+      this.windowWidth = window.innerWidth
+      console.log(this.windowWidth);
+    }
+  }
 })
 </script>
 
@@ -160,12 +183,41 @@ export default defineComponent({
     line-height: 1.5;
     text-align: left;
     margin: 0;
-    width: 500px;
+    width: 100%;
     height: 100%;
 }
 
 .project-date {
     font-size: 0.85rem;
+}
+
+/* Mobile */
+@media only screen and (max-width: 900px) {
+  /* ===== Experience ===== */
+  .experience-project {
+        flex-direction: column;
+        align-items: center;
+    }
+    .project-details {
+        text-align: left;
+    }
+
+    .project-title {
+        font-size: calc(20px + 1vw);
+    }
+
+    .project-desc {
+        font-size: calc(10px + 1vw);
+    }
+
+    .project-date {
+        font-size: calc(5px + 1vw);
+    }
+
+    #landscape {
+        height: 24vh;
+        width: 450px;
+    }
 }
 </style>
   

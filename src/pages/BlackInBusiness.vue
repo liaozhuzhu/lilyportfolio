@@ -157,12 +157,36 @@ export default defineComponent({
     line-height: 1.5;
     text-align: left;
     margin: 0;
-    width: 500px;
+    width: 100%;
     height: 100%;
 }
 
 .project-date {
     font-size: 0.85rem;
+}
+
+/* mobile */
+@media only screen and (max-width: 900px) {
+  /* ===== Experience ===== */
+  .experience-project {
+        flex-direction: column;
+        align-items: center;
+    }
+    .project-details {
+        text-align: left;
+    }
+
+    .project-title {
+        font-size: calc(20px + 1vw);
+    }
+
+    .project-desc {
+        font-size: calc(10px + 1vw);
+    }
+
+    .project-date {
+        font-size: calc(5px + 1vw);
+    }
 }
 </style>
   
