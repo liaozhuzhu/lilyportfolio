@@ -18,6 +18,7 @@
                 <div class="project-box container-flex">
                     <video-player
                         class="experience-video"
+                        id="landscape"
                         src="./assets/tippie-intern/tihisg/andrew.mp4"
                         poster="./assets/tippie-intern/tihisg/andrew.png"
                         crossorigin="anonymous"
@@ -51,6 +52,45 @@
                     </p>
                     
                     <p class="project-date">08/27/2022</p>
+                </div>
+            </div>
+
+            <div class="experience-project container-flex">
+                <div class="project-box container-flex">
+                    <video-player
+                        class="experience-video"
+                        src="./assets/tippie-intern/tihisg/lily.mp4"
+                        crossorigin="anonymous"
+                        playsinline
+                        controls
+                        :loop="false"
+                        :volume="0.6"
+                        :playback-rates="[0.7, 1.0, 1.5, 2.0]"
+                        @mounted="handleMounted"
+                        @ready="handleEvent($event)"
+                        @play="handleEvent($event)"
+                        @pause="handleEvent($event)"
+                        @ended="handleEvent($event)"
+                        @loadeddata="handleEvent($event)"
+                        @waiting="handleEvent($event)"
+                        @playing="handleEvent($event)"
+                        @canplay="handleEvent($event)"
+                        @canplaythrough="handleEvent($event)"
+                        @timeupdate="handleEvent(player?.currentTime())"
+                    />
+                </div>
+                
+                <div class="project-box container-flex project-details">
+                    <h1 class="project-title"><a href="https://www.instagram.com/p/Cl6jjjaDHj_/?hl=en" target="_blank">Lily Dosedel</a></h1>
+
+                    <p class="project-desc">
+                    Mindfulness can be a brushstroke away.
+                    <br/>
+                    <br/>
+                    Link to original post: <a class="desc-link" href="https://www.instagram.com/p/Cl6jjjaDHj_/?hl=en" target="_blank">https://www.instagram.com/p/Cl6jjjaDHj_/?hl=en</a>
+                    </p>
+                    
+                    <p class="project-date">12/08/2022</p>
                 </div>
             </div>
         </div>     
@@ -88,10 +128,15 @@ export default defineComponent({
     justify-content: left;
 }
 .experience-video {
-    width: 650px;
-    height: 370px;
+    width: 370px;
+    height: 650px;
     border: 5px solid black;
     border-radius: 20px;
+}
+
+#landscape {
+    width: 650px;
+    height: 370px;
 }
 
 .project-box {
