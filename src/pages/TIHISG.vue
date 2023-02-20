@@ -3,7 +3,7 @@
         <div class="page-header container-flex">
             <h1 class="page-title">#ThisIsHowIStayGrounded Campaign</h1>
         </div>
-        <div class="container-flex column" id="black-in-business">
+        <div class="container-flex column" id="tihisg">
             <div class="experience-about">
                 <p>
                     At the Tippie College of Business, we wanted to launch a mental health campaign that addresses the stress and pressures that all students face. 
@@ -114,7 +114,7 @@ export default defineComponent({
 </script>
 
 <style scoped>
-#black-in-business {
+#tihisg {
     margin-inline: 25px;
     gap: 100px;
     margin-bottom: 50px;

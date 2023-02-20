@@ -46,8 +46,7 @@
                     <h1 class="project-title"><a href="https://www.instagram.com/reel/Cnm-RmLjCXJ/?igshid=YmMyMTA2M2Y=" target="_blank">Jordyn Johnson</a></h1>
 
                     <p class="project-desc">
-                    The 2nd installment to the Tippie College of Business's Black in Business campaign, which highlights the experiences of 
-                    Black students in the college in honor of Black History Month.
+                    Sometimes a smile is all it takes.
                     <br/>
                     <br/>
                     Link to original post (audio was removed on Instagram): <a class="desc-link" href="https://www.instagram.com/reel/Cnm-RmLjCXJ/?igshid=YmMyMTA2M2Y=" target="_blank">https://www.instagram.com/reel/Cnm-RmLjCXJ/?igshid=YmMyMTA2M2Y=</a>
