@@ -20,7 +20,7 @@
                     </a>
                 </div>
                 <div class="experience-item" id="grounded-card">
-                    <a href="/tippie-marketing-intern">
+                    <a href="/this-is-how-i-stay-grounded">
                         <div class="overlay">
                             <p class="subtitle">#ThisIsHowIStayGrounded</p>
                         </div>

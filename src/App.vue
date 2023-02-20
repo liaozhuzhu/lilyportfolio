@@ -191,7 +191,6 @@ export default {
 .page-header {
     margin-left: 25px;
     margin-right: auto;
-    max-width: 800px;
     padding-top: 20px;
     width: 100%;
 }
