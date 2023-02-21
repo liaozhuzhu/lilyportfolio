@@ -4,7 +4,5 @@
 
 **Todo**
 - Responsive Navbar
-- Stories
-- Resume Update
+- Fix grid on mobile
 - Remove scroll from cover of mp4s
-- Change font size of overlay

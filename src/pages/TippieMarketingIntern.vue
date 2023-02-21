@@ -123,5 +123,9 @@ export default {
 #takeover-card {
     background-image: url(../../public/assets/tippie-intern/summer-takeovers/summer-takeovers.jpg);
 }
+
+#stories-card {
+    background-image: url(../../public/assets/tippie-intern/stories/stories.png);
+}
 </style>
   

@@ -90,6 +90,7 @@ export default {
 @media only screen and (max-width: 550px) {
     .contact-form {
         width: 100%;
+        padding-inline: 25px;
     }
 }
 </style>

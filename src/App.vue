@@ -85,85 +85,10 @@ export default {
     left: 0;
     width: 100%;
     background-color: var(--white);
-
     display: flex;
     padding: 25px;
     padding-block: 15px;
     align-items: center;
-}
-
-.navbar div a {
-    text-decoration: none;
-}
-
-.navbar div a {
-    font-size: 2rem;
-}
-
-.navbar ul {
-    margin-left: auto;
-    display: flex;
-    gap: 20px;
-    list-style-type: none;
-}
-
-.navbar ul a {
-    color: var(--blue);
-    opacity: 0.6;
-    transition: 0.2s;
-    text-decoration: none;
-    font-weight: 500;
-}
-
-.navbar ul a:hover {
-    opacity: 1;
-}
-
-#hamburger-icon {
-    margin: auto 0;
-    display: none;
-    cursor: pointer;
-    margin-left: auto;
-    margin-right: 50px;
-}
-
-#hamburger-icon div{
-    width: 35px;
-    height: 3px;
-    background-color: white;
-    margin: 6px 0;
-    transition: 0.4s;
-}
-
-.open .bar1 {
-    -webkit-transform: rotate(-45deg) translate(-6px, 6px);
-    transform: rotate(-45deg) translate(-6px, 6px);
-}
-  
-.open .bar2 {
-    opacity: 0;
-}
-  
-.open .bar3 {
-    -webkit-transform: rotate(45deg) translate(-6px, -8px);
-    transform: rotate(45deg) translate(-6px, -8px);
-}
-  
-.open .mobile-menu {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    list-style-type: none;
-}
-  
-.mobile-menu {
-    display: none;
-    position: absolute;
-    top: 25px;
-    left: 0; 
-    height: 50px;
-    width: 100%;
-    background-color: rgb(49, 49, 49);
 }
 
 /* ===== Footer ===== */
@@ -621,6 +546,10 @@ export default {
 
 /* ===== Media Query ===== */
 @media only screen and (max-width: 991px) {
+    /* ===== Globals ===== */
+    .subtitle {
+        font-size: 1.75rem;
+    }
     /* ===== Pages ===== */
     #home {
         background-attachment: scroll;
