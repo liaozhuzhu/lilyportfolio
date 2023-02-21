@@ -6,13 +6,13 @@
         <div class="container-flex column experience-page">
             <div class="experience-about">
                 <p>
-                    International Mother Language Day is a global observance that celebrates linguistic and cultural diversity around the world.
+                    The Student Summer Takeover 2022 was a series of Instagram takeovers by Tippie College of Business students. The takeovers were designed to showcase the diversity of the Tippie community and to provide a platform for students to share their experiences and perspectives.
                     <br/>
                     <br/>
-                    This day provides a unique opportunity to promote the importance of cultural diversity and the significance of language as a means of communication. This day highlights the role of mother languages in shaping identities, connecting people, and preserving cultural heritage.
+                    Each takeover consisted of a series of Instagram stories that were posted over the course of a day. The takeovers were directed by me and featured students from a variety of backgrounds and majors.
                     <br/>
                     <br/>
-                    International Mother Language Day also offers a platform to promote language learning, which is essential for personal growth, career advancement, and global citizenship. I believe that promoting language learning could be a valuable addition to any business's corporate social responsibility initiatives.
+                    The takeovers also allowed students to share their daily experiences and perspectives with the other students.
                 </p>
             </div>
 
@@ -28,7 +28,7 @@
                 </div>
                 
                 <div class="project-box container-flex project-details">
-                    <h1 class="project-title"><a href="https://www.instagram.com/tippiecollege/">Student Summer Takeovers 2022</a></h1>
+                    <h1 class="project-title"><a href="https://www.instagram.com/tippiecollege/" target="_blank">Student Summer Takeovers 2022</a></h1>
 
                     <p class="project-desc">
                     Here are a handful of the takeovers I directed! Click on each one to see the full takeover.

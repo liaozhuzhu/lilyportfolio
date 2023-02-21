@@ -9,6 +9,7 @@ import BlackInBusiness from "@/pages/BlackInBusiness.vue"
 import TIHISG from "@/pages/TIHISG.vue"
 import MotherLanguage from "@/pages/MotherLanguage.vue"
 import StudentTakeover from "@/pages/StudentSummerTakeover.vue"
+import Stories from "@/pages/Stories.vue"
 
 const routes = [
 	{
@@ -60,6 +61,11 @@ const routes = [
 		path: "/student-summer-takeovers",
 		name: "StudentTakeover",
 		component: StudentTakeover
+	},
+	{
+		path: "/stories",
+		name: "Stories",
+		component: Stories
 	},
 ]
 

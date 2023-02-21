@@ -4,7 +4,7 @@
 
 **Todo**
 - Responsive Navbar
-- Summer Takeovers
 - Stories
 - Resume Update
 - Remove scroll from cover of mp4s
+- Change font size of overlay

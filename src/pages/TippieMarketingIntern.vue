@@ -34,7 +34,7 @@
                     </a>
                 </div>
                 <div class="experience-item" id="stories-card">
-                    <a href="/tippie-marketing-intern">
+                    <a href="/stories">
                         <div class="overlay">
                             <p class="subtitle">Stories</p>
                         </div>
