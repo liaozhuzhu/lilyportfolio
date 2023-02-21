@@ -4,6 +4,7 @@
             <h1 class="page-title">Hello!</h1>
         </div>
         <div class="container-flex fullheight"  id="about">
+            <img class="about-child" src="../static/images/about.jpg"/>
             <div class="about-child" id="desc">
                 <p>My name is Lily Dosedel, and I'm a second-year, University of Iowa student pursuing majors in Marketing and Business Analytics & Information Systems (BAIS) with a minor in Chinese. 
                     <br/><br/>
@@ -21,9 +22,6 @@
                     <a href="./lilydosedel.pdf" target="_blank"><fa icon="fa-solid fa-file"/></a>
                 </div>
             </div> 
-        
-
-            <img class="about-child" src="../static/images/about.jpg"/>
         </div>
     </div>
 </template>
@@ -38,4 +36,12 @@ export default {
 </script>
 
 <style scoped>
+@media only screen and (max-width: 900px) {
+    #about {
+        flex-direction: column;
+    }
+    .fullheight {
+        height: 100%;
+    }
+}
 </style>

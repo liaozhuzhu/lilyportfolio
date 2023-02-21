@@ -210,18 +210,18 @@ export default {
 #about {
     margin: 25px;
     margin-top: 7px;
+    gap: 25px;
 }
 
 .about-child {
-    width: 50%;
+    width: 100%;
     height: 100%;
 }
 
 #about p {
-    padding-right: 65px;
     max-width: 100%;
     text-align: left;
-    font-size: 2.7vh;
+    font-size: 1rem;
     font-weight: 300;
     line-height: 30px;
     color: #333333;
