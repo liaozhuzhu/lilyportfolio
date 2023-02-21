@@ -1,3 +1,3 @@
-# Lily Dosedel
+# Lily Dosedel Portfolio
 
-Website created by [Liao Zhu](https://liaozhu.dev)
+** In Progress **
