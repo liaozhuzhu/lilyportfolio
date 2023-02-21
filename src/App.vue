@@ -75,7 +75,6 @@ export default {
 }
 
 .desc-link {
-    text-decoration: none;
     color: var(--blue);
 }
 /* ===== Navbar ===== */
@@ -118,6 +117,53 @@ export default {
 
 .navbar ul a:hover {
     opacity: 1;
+}
+
+#hamburger-icon {
+    margin: auto 0;
+    display: none;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: 50px;
+}
+
+#hamburger-icon div{
+    width: 35px;
+    height: 3px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.open .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-6px, 6px);
+    transform: rotate(-45deg) translate(-6px, 6px);
+}
+  
+.open .bar2 {
+    opacity: 0;
+}
+  
+.open .bar3 {
+    -webkit-transform: rotate(45deg) translate(-6px, -8px);
+    transform: rotate(45deg) translate(-6px, -8px);
+}
+  
+.open .mobile-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+}
+  
+.mobile-menu {
+    display: none;
+    position: absolute;
+    top: 25px;
+    left: 0; 
+    height: 50px;
+    width: 100%;
+    background-color: rgb(49, 49, 49);
 }
 
 /* ===== Footer ===== */
@@ -167,6 +213,7 @@ export default {
     height: 100%;
     font-family: var(--heading);
     letter-spacing: 7px;
+    text-align: center;
 }
 
 #home video {
@@ -211,18 +258,18 @@ export default {
 #about {
     margin: 25px;
     margin-top: 7px;
+    gap: 25px;
 }
 
 .about-child {
-    width: 50%;
+    width: 100%;
     height: 100%;
 }
 
 #about p {
-    padding-right: 65px;
     max-width: 100%;
     text-align: left;
-    font-size: 2.7vh;
+    font-size: 1rem;
     font-weight: 300;
     line-height: 30px;
     color: #333333;
@@ -336,9 +383,9 @@ export default {
 /* make a 2x2 grid container */
 #experience-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(100px, 1fr);
+    grid-template-rows: repeat(50px, 1fr);
     grid-gap: 20px;
-    width: 100%;
     height: 100%;
     gap: 10px;
     height: 75vh;
@@ -353,6 +400,7 @@ export default {
     position: relative;   
     background-repeat: no-repeat;
     background-size: cover;
+    background-size:100% auto;
     border: 2px solid var(--blue);
 }
 
@@ -380,6 +428,10 @@ export default {
 
 #tippie-intern {
     background-image: url(./static/images/tippie.JPG);
+}
+
+#marketing-institute {
+    display: none;
 }
 
 /* ===== Home ===== */
@@ -518,7 +570,7 @@ export default {
 }
 
 /* ===== Media Query ===== */
-@media only screen and (max-device-width: 991px) {
+@media only screen and (max-width: 991px) {
     /* ===== Pages ===== */
     #home {
         background-attachment: scroll;
@@ -527,8 +579,8 @@ export default {
         background-attachment: scroll;
     }
     #home-grid {
-        grid-template-columns: repeate(auto-fill, minmax(50%, 1fr));
         grid-template-rows: minmax(auto, auto);
+        margin: 25px !important;
     }
     #home-grid .box {
         grid-column: unset !important;

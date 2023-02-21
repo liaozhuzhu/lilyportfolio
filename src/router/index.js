@@ -1,4 +1,5 @@
 import { createWebHistory, createRouter } from "vue-router"
+import Redirect from "@/pages/Redirect.vue"
 import Home from "@/pages/Home.vue"
 import About from "@/pages/About.vue"
 import Contact from "@/pages/Contact.vue"
@@ -8,6 +9,11 @@ import BlackInBusiness from "@/pages/BlackInBusiness.vue"
 import TIHISG from "@/pages/TIHISG.vue"
 
 const routes = [
+	{
+		path: "/redirect",
+		name: "Redirect",
+		component: Redirect
+	},
 	{
 		path: "/",
 		name: "Home",
