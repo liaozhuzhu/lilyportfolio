@@ -27,7 +27,7 @@
                     </a>
                 </div>
                 <div class="experience-item" id="takeover-card">
-                    <a href="/tippie-marketing-intern">
+                    <a href="/student-summer-takeovers">
                         <div class="overlay">
                             <p class="subtitle">Student Summer Takeovers</p>
                         </div>
@@ -118,6 +118,10 @@ export default {
 
 #mother-language-card {
     background-image: url(../../public/assets/tippie-intern/motherlanguage/motherlanguage.png);
+}
+
+#takeover-card {
+    background-image: url(../../public/assets/tippie-intern/summer-takeovers/summer-takeovers.jpg);
 }
 </style>
   

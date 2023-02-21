@@ -8,6 +8,7 @@ import TippieMarketingIntern from "@/pages/TippieMarketingIntern.vue"
 import BlackInBusiness from "@/pages/BlackInBusiness.vue"
 import TIHISG from "@/pages/TIHISG.vue"
 import MotherLanguage from "@/pages/MotherLanguage.vue"
+import StudentTakeover from "@/pages/StudentSummerTakeover.vue"
 
 const routes = [
 	{
@@ -54,6 +55,11 @@ const routes = [
 		path: "/international-mother-language-day",
 		name: "MotherLanguage",
 		component: MotherLanguage
+	},
+	{
+		path: "/student-summer-takeovers",
+		name: "StudentTakeover",
+		component: StudentTakeover
 	},
 ]
 
