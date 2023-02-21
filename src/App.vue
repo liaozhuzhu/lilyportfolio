@@ -383,7 +383,8 @@ export default {
 /* make a 2x2 grid container */
 #experience-grid {
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(100px, 1fr);
+    grid-template-rows: repeat(50px, 1fr);
     grid-gap: 20px;
     height: 100%;
     gap: 10px;
@@ -578,7 +579,6 @@ export default {
         background-attachment: scroll;
     }
     #home-grid {
-        grid-template-columns: repeate(auto-fill, minmax(50%, 1fr));
         grid-template-rows: minmax(auto, auto);
         margin: 25px !important;
     }

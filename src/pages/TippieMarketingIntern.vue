@@ -85,7 +85,7 @@ export default {
 
 #experience-grid .experience-item:nth-child(1) {
     grid-column: span 1;
-    grid-row: span 2;
+    grid-row: span 3;
 }
 
 #experience-grid .experience-item:nth-child(2) {
@@ -94,18 +94,18 @@ export default {
 }
 
 #experience-grid .experience-item:nth-child(3) {
-    grid-column: span 1;
-    grid-row: span 3;
+    grid-column: span 2;
+    grid-row: span 1;
 }
 
 #experience-grid .experience-item:nth-child(4) {
     grid-column: span 1;
-    grid-row: span 3;
+    grid-row: span 2;
 }
 
 #experience-grid .experience-item:nth-child(5) {
     grid-column: span 1;
-    grid-row: span 1;
+    grid-row: span 2;
 }
 
 #black-in-business-card {
@@ -114,6 +114,9 @@ export default {
 
 #grounded-card {
     background-image: url(../static/images/tihisg.jpg);
+}
+
+@media only screen and (max-width: 600px) {
 }
 </style>
   
