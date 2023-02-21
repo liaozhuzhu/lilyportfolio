@@ -12,7 +12,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="container-flex experience-item">
+                <div class="container-flex experience-item" id="marketing-institute">
                     <a href="#">
                         <div class="overlay">
                             <p class="subtitle">Marketing Institute Consultant</p>
@@ -34,4 +34,9 @@ export default {
 </script>
 
 <style scoped>
+@media only screen and (max-width: 930px) {
+    #tippie-intern {
+        background-size: cover;
+    }
+}
 </style>

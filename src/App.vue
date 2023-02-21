@@ -119,6 +119,53 @@ export default {
     opacity: 1;
 }
 
+#hamburger-icon {
+    margin: auto 0;
+    display: none;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: 50px;
+}
+
+#hamburger-icon div{
+    width: 35px;
+    height: 3px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.open .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-6px, 6px);
+    transform: rotate(-45deg) translate(-6px, 6px);
+}
+  
+.open .bar2 {
+    opacity: 0;
+}
+  
+.open .bar3 {
+    -webkit-transform: rotate(45deg) translate(-6px, -8px);
+    transform: rotate(45deg) translate(-6px, -8px);
+}
+  
+.open .mobile-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+}
+  
+.mobile-menu {
+    display: none;
+    position: absolute;
+    top: 25px;
+    left: 0; 
+    height: 50px;
+    width: 100%;
+    background-color: rgb(49, 49, 49);
+}
+
 /* ===== Footer ===== */
 #footer {
     gap: 10px;
@@ -166,6 +213,7 @@ export default {
     height: 100%;
     font-family: var(--heading);
     letter-spacing: 7px;
+    text-align: center;
 }
 
 #home video {
@@ -335,9 +383,8 @@ export default {
 /* make a 2x2 grid container */
 #experience-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     grid-gap: 20px;
-    width: 100%;
     height: 100%;
     gap: 10px;
     height: 75vh;
@@ -352,6 +399,7 @@ export default {
     position: relative;   
     background-repeat: no-repeat;
     background-size: cover;
+    background-size:100% auto;
     border: 2px solid var(--blue);
 }
 
@@ -379,6 +427,10 @@ export default {
 
 #tippie-intern {
     background-image: url(./static/images/tippie.JPG);
+}
+
+#marketing-institute {
+    display: none;
 }
 
 /* ===== Home ===== */
@@ -517,7 +569,7 @@ export default {
 }
 
 /* ===== Media Query ===== */
-@media only screen and (max-device-width: 991px) {
+@media only screen and (max-width: 991px) {
     /* ===== Pages ===== */
     #home {
         background-attachment: scroll;
@@ -528,6 +580,7 @@ export default {
     #home-grid {
         grid-template-columns: repeate(auto-fill, minmax(50%, 1fr));
         grid-template-rows: minmax(auto, auto);
+        margin: 25px !important;
     }
     #home-grid .box {
         grid-column: unset !important;
