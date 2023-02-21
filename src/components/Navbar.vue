@@ -87,6 +87,11 @@ export default {
     font-size: 2rem;
 }
 
+.home-link:visited, .home-link:active {
+    text-decoration: none;
+    color: black;
+}
+
 .desktop-ul {
     margin-left: auto;
     display: flex;

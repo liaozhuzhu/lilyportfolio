@@ -551,6 +551,10 @@ export default {
         font-size: 1.75rem;
     }
     /* ===== Pages ===== */
+    .page-header h1{
+        font-size: 2.5rem;
+        line-height: 45px;
+    }
     #home {
         background-attachment: scroll;
     }
