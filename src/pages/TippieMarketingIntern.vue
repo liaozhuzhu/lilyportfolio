@@ -115,8 +115,5 @@ export default {
 #grounded-card {
     background-image: url(../static/images/tihisg.jpg);
 }
-
-@media only screen and (max-width: 600px) {
-}
 </style>
   

@@ -396,6 +396,7 @@ export default {
 .experience-item {
     border-radius: 20px;
     height: 100%;
+    width: 100%;
     padding: 15px;
     position: relative;   
     background-repeat: no-repeat;
