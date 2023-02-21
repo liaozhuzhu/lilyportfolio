@@ -33,6 +33,7 @@ export default {
 </script>
   
 <style scoped>
+
 #hamburger-icon {
     margin: auto 0;
     display: none;
@@ -87,9 +88,8 @@ export default {
     font-size: 2rem;
 }
 
-.home-link:visited, .home-link:active {
-    text-decoration: none;
-    color: black;
+.home-link a {
+  text-decoration: none;
 }
 
 .desktop-ul {
