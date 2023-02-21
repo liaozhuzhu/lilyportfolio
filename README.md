@@ -3,5 +3,5 @@
 ** In Progress **
 
 **Todo**
-- Fix grid on mobile
+- home link visited style
 - Remove scroll from cover of mp4s
