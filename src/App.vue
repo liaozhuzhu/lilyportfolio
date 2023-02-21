@@ -554,6 +554,7 @@ export default {
     .page-header h1{
         font-size: 2.5rem;
         line-height: 45px;
+        margin-right: 10px;
     }
     #home {
         background-attachment: scroll;
