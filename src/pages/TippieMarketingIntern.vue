@@ -127,5 +127,15 @@ export default {
 #stories-card {
     background-image: url(../../public/assets/tippie-intern/stories/stories.png);
 }
+
+@media only screen and (max-width: 670px) {
+    #experience-grid {
+        display: flex;
+        flex-direction: column;
+    }
+    .experience-item {
+        height: 670px;
+    }
+}
 </style>
   
