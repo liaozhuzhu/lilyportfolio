@@ -17,7 +17,7 @@
     <div class="container-grid" id="home-grid">
 
         <div class="box card-images">
-            <a href="/about">
+            <a href="/redirect">
                 <div class="content-grid">
                     <video autoplay loop muted playsinline>
                         <source src="../static/images/videography.mp4">
@@ -56,7 +56,7 @@
             </a>
         </div>
         <div class="box card-images" id="photography-card">
-            <a href="/about">
+            <a href="/redirect">
                 <div class="content-grid">
                     <video autoplay loop muted playsinline>
                         <source src="../static/images/photography.mp4">
@@ -68,7 +68,7 @@
             </a>
         </div>
         <div class="box card-images" id="art-card">
-            <a href="/about">
+            <a href="/redirect">
                 <div class="content-grid">
                     <div class="overlay">
                         <p class="subtitle">Art</p>
@@ -77,7 +77,7 @@
             </a>
         </div>
         <div class="box card-images" id="graphicdesign-card">
-            <a href="/about">
+            <a href="/redirect">
                 <div class="content-grid">
                     <div class="overlay">
                         <p class="subtitle">Graphic Design</p>

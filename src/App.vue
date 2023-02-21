@@ -75,7 +75,6 @@ export default {
 }
 
 .desc-link {
-    text-decoration: none;
     color: var(--blue);
 }
 /* ===== Navbar ===== */
