@@ -3,7 +3,7 @@
         <div class="page-header container-flex">
             <h1 class="page-title">Black in Business</h1>
         </div>
-        <div class="container-flex column" id="black-in-business">
+        <div class="container-flex column experience-page">
             <div class="experience-about">
                 <p>
                     The 2023 Black History Month social media campaign at the University of Iowa Tippie College of Business continues to amplify the voices of our Black students. We captured their stories through a series of videos and interviews, and shared them on our social media channels.
@@ -116,77 +116,5 @@ export default defineComponent({
 </script>
 
 <style scoped>
-#black-in-business {
-    margin-inline: 25px;
-    gap: 100px;
-    margin-bottom: 50px;
-}
-
-/* make a flex container that's first child takes up 1/3 of the space */
-.experience-project {
-    width: 100%;
-    height: 100%;
-    gap: 25px;
-    justify-content: left;
-}
-.experience-video {
-    width: 370px;
-    height: 650px;
-    border: 5px solid black;
-    border-radius: 20px;
-}
-
-.project-box {
-    width: 100%;
-}
-
-.project-details {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 25px
-}
-
-.project-title a{
-    color: black;
-}
-
-.project-desc {
-    font-size: 1.2rem;
-    line-height: 1.5;
-    text-align: left;
-    margin: 0;
-    width: 100%;
-    height: 100%;
-}
-
-.project-date {
-    font-size: 0.85rem;
-}
-
-/* mobile */
-@media only screen and (max-width: 900px) {
-  /* ===== Experience ===== */
-  .experience-project {
-        flex-direction: column;
-        align-items: center;
-    }
-    .project-details {
-        text-align: left;
-    }
-
-    .project-title {
-        font-size: calc(20px + 1vw);
-    }
-
-    .project-desc {
-        font-size: calc(10px + 1vw);
-    }
-
-    .project-date {
-        font-size: calc(5px + 1vw);
-    }
-}
 </style>
   

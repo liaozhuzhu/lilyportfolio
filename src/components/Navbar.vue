@@ -37,7 +37,7 @@ export default {
 @media only screen and (max-width: 500px) {
 /* ===== Navbar ===== */
   #hamburger-icon {
-        display: block;
+        display: none;
   }
 }
 </style>

@@ -86,4 +86,10 @@ export default {
     font-size: 1.2rem;
     transition: 0.25s;
 }
+
+@media only screen and (max-width: 550px) {
+    .contact-form {
+        width: 100%;
+    }
+}
 </style>

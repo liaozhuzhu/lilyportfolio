@@ -7,6 +7,7 @@ import Experience from "@/pages/Experience.vue"
 import TippieMarketingIntern from "@/pages/TippieMarketingIntern.vue"
 import BlackInBusiness from "@/pages/BlackInBusiness.vue"
 import TIHISG from "@/pages/TIHISG.vue"
+import MotherLanguage from "@/pages/MotherLanguage.vue"
 
 const routes = [
 	{
@@ -48,6 +49,11 @@ const routes = [
 		path: "/this-is-how-i-stay-grounded",
 		name: "TIHISG",
 		component: TIHISG
+	},
+	{
+		path: "/international-mother-language-day",
+		name: "MotherLanguage",
+		component: MotherLanguage
 	},
 ]
 

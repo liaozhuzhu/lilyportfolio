@@ -6,7 +6,7 @@
         <div class="container-flex column" id="experience">
             <div class="container-grid" id="experience-grid">
                 <div class="experience-item" id="mother-language-card">
-                    <a href="/tippie-marketing-intern">
+                    <a href="/international-mother-language-day">
                         <div class="overlay">
                             <p class="subtitle">International Mother Language Day</p>
                         </div>
@@ -109,11 +109,15 @@ export default {
 }
 
 #black-in-business-card {
-    background-image: url(../static/images/bib.png);
+    background-image: url(../../public/assets/tippie-intern/bib/bib.png);
 }
 
 #grounded-card {
-    background-image: url(../static/images/tihisg.jpg);
+    background-image: url(../../public/assets/tippie-intern/tihisg/tihisg.png);
+}
+
+#mother-language-card {
+    background-image: url(../../public/assets/tippie-intern/motherlanguage/motherlanguage.png);
 }
 </style>
   

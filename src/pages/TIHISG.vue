@@ -4,7 +4,7 @@
             <h1 class="page-title" v-if="windowWidth >= 901">#ThisIsHowIStayGrounded Campaign</h1>
             <h1 class="page-title" v-else>#TIHISG Campaign</h1>
         </div>
-        <div class="container-flex column" id="tihisg">
+        <div class="container-flex column experience-page">
             <div class="experience-about">
                 <p>
                     At the Tippie College of Business, we wanted to launch a mental health campaign that addresses the stress and pressures that all students face. 
@@ -137,12 +137,6 @@ export default defineComponent({
 </script>
 
 <style scoped>
-#tihisg {
-    margin-inline: 25px;
-    gap: 100px;
-    margin-bottom: 50px;
-}
-
 /* make a flex container that's first child takes up 1/3 of the space */
 .experience-project {
     width: 100%;
@@ -193,26 +187,6 @@ export default defineComponent({
 
 /* Mobile */
 @media only screen and (max-width: 900px) {
-  /* ===== Experience ===== */
-  .experience-project {
-        flex-direction: column;
-        align-items: center;
-    }
-    .project-details {
-        text-align: left;
-    }
-
-    .project-title {
-        font-size: calc(20px + 1vw);
-    }
-
-    .project-desc {
-        font-size: calc(10px + 1vw);
-    }
-
-    .project-date {
-        font-size: calc(5px + 1vw);
-    }
 
     #landscape {
         height: 24vh;

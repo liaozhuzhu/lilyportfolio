@@ -435,6 +435,55 @@ export default {
     display: none;
 }
 
+.experience-page {
+    margin-inline: 25px;
+    gap: 100px;
+    margin-bottom: 50px;
+}
+
+
+.experience-project {
+    width: 100%;
+    height: 100%;
+    gap: 25px;
+    justify-content: left;
+}
+.experience-video {
+    width: 370px;
+    height: 650px;
+    border: 5px solid black;
+    border-radius: 20px;
+}
+
+.project-box {
+    width: 100%;
+}
+
+.project-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 25px
+}
+
+.project-title a{
+    color: black;
+}
+
+.project-desc {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    text-align: left;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.project-date {
+    font-size: 0.85rem;
+}
+
 /* ===== Home ===== */
 .container-grid {
     position: relative;
@@ -586,6 +635,27 @@ export default {
     #home-grid .box {
         grid-column: unset !important;
         grid-row: unset !important;
+    }
+
+    /* ===== Experience ===== */    
+  .experience-project {
+        flex-direction: column;
+        align-items: center;
+    }
+    .project-details {
+        text-align: left;
+    }
+
+    .project-title {
+        font-size: calc(20px + 1vw);
+    }
+
+    .project-desc {
+        font-size: calc(10px + 1vw);
+    }
+
+    .project-date {
+        font-size: calc(5px + 1vw);
     }
 }
 </style>

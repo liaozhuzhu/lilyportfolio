@@ -3,7 +3,7 @@
         <div class="page-header container-flex">
             <h1 class="page-title">Experience</h1>
         </div>
-        <div class="container-flex column"  id="experience">
+        <div class="container-flex column" id="experience">
             <div class="container-flex experience-item" id="tippie-intern">
                 <a href="/tippie-marketing-intern">
                     <div class="overlay">
@@ -36,5 +36,9 @@ export default {
     #tippie-intern {
         background-size: cover;
     }
+}
+
+.experience-item {
+    height: 500px;
 }
 </style>
