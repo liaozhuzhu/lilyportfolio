@@ -6,13 +6,13 @@
         <div class="container-flex column experience-page">
             <div class="experience-about">
                 <p>
-                    The 2023 Black History Month social media campaign at the University of Iowa Tippie College of Business continues to amplify the voices of our Black students. We captured their stories through a series of videos and interviews, and shared them on our social media channels.
+                    The 2023 Black in Business social media campaign in celebration of Black History Month is a continuation of the original Black in Business campaign started in 2021. With the same goal of amplifying the voices of Black students in the Tippie College of Business, the Tippie social media team captured the stories of 6 students through a series of videos and interviews shared on the @tippiecollege Instagram page.  
                     <br/>
                     <br/>
-                    Our goal for this campaign is to elevate the narratives and experiences of our Black students, a group that remains underrepresented and underserved in the field of business. We hope that by sharing their unfiltered experiences, we can shine a light on their unique perspectives, and continue to foster a more inclusive and equitable community.
+                    Our goal for this campaign was to elevate the narratives and experiences of our Black students, a group that remains underrepresented and underserved in the field of business. We hope that by sharing what it means to them to be Black in business, we can shine a light on their unique perspectives and continue to foster a more inclusive and equitable community. 
                     <br/>
                     <br/>
-                    The campaign has garnered widespread positive feedback from current students, alumni, faculty, staff, and our social media colleagues outside the university. Moreover, it has helped humanize a section of our student population that has often felt invisible and marginalized. By creating this platform of visibility, we aim to inspire prospective students to envision themselves as part of our college community.
+                    The campaign has garnered widespread positive feedback from current students, alumni, faculty, and staff. Moreover, it has helped uplift a section of our student population that has often felt invisible and marginalized. By creating this platform of visibility, we aim to inspire current and prospective students to feel that they have a place within the Tippie College of Business.  
                 </p>
             </div>
 

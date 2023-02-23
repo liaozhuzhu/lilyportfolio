@@ -6,7 +6,10 @@
         <div class="container-flex column experience-page">
             <div class="experience-about">
                 <p>
-                    I create Instagram stories for the College of Business to promote the college's events and initiatives. I also create stories to promote the college's social media accounts and encourage students to follow them.
+                    This project was my main task during the intial summer portion of my internship. I reached out to all potential students, facilitated brainstorming meetings with each student, scheduled the content on Tippie’s content calendar, wrote each caption, aggregated all content and information to post the stories and feed photos for each student, and finally managed the Instagram account after posting.  
+                    <br/>
+                    <br/>
+                    I construct these graphics using Adobe Illustrator and/or Photoshop, and I create every graphic in adherence to the University of Iowa and Tippie College of Business’s branding guidelines. Some of these graphics incorporated interactive Instagram story features such as polls, links, or other stickers at the time of posting, which are not included in the images here. 
                 </p>
             </div>
 

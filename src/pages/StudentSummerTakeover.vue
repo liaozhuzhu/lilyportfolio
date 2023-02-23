@@ -6,13 +6,13 @@
         <div class="container-flex column experience-page">
             <div class="experience-about">
                 <p>
-                    The Student Summer Takeover 2022 was a series of Instagram takeovers by Tippie College of Business students. The takeovers were designed to showcase the diversity of the Tippie community and to provide a platform for students to share their experiences and perspectives.
+                    The student takeover project in Summer 2022 was a series of Instagram takeovers by Tippie College of Business students who were completing an internship or studying abroad. The takeovers were designed to showcase the breadth of opportunities Tippie students have and to provide a platform for students to share their experiences and perspectives. 
                     <br/>
                     <br/>
-                    Each takeover consisted of a series of Instagram stories that were posted over the course of a day. The takeovers were directed by me and featured students from a variety of backgrounds and majors.
+                    The takeovers featured 22 total students from a variety of backgrounds and majors, and each takeover consisted of a series of Instagram stories that were posted over the course of a day, detailing aspects of their everyday routine or overall experience.  
                     <br/>
                     <br/>
-                    The takeovers also allowed students to share their daily experiences and perspectives with the other students.
+                    This project was my main task during the intial summer portion of my internship. I reached out to all potential students, facilitated brainstorming meetings with each student, scheduled the content on Tippie’s content calendar, wrote each caption, aggregated all content and information to post the stories and feed photos for each student, and finally managed the Instagram account after posting.  
                 </p>
             </div>
 

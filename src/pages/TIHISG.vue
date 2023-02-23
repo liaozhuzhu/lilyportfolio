@@ -7,11 +7,10 @@
         <div class="container-flex column experience-page">
             <div class="experience-about">
                 <p>
-                    At the Tippie College of Business, we wanted to launch a mental health campaign that addresses the stress and pressures that all students face. 
-                    Our aim was to create a safe space for students to talk about their struggles and promote the importance of mental wellness. We understand that student life can be challenging, and we wanted to offer support to those who may feel overwhelmed.
+                    At the Tippie College of Business, we wanted to launch a mental health campaign that gave the opportunity to student leaders, faculty, and staff to talk about their methods of overcoming the different stressors faced in everyday life. 
                     <br/>
                     <br/> 
-                    Our campaign highlights the importance of finding a balance between intense academic workloads and self-care, emphasizing the significance of rest and relaxation.
+                    This series highlights the importance of finding a balance between intense academic workloads and self-care, emphasizing the significance of staying grounded through preventative measures such as exercise, meditation, and various hobbies.  
                 </p>
             </div>
 

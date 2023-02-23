@@ -6,13 +6,13 @@
         <div class="container-flex column experience-page">
             <div class="experience-about">
                 <p>
-                    International Mother Language Day is a global observance that celebrates linguistic and cultural diversity around the world.
+                    International Mother Language Day is a global observance that celebrates linguistic and cultural diversity around the world. This day provides a unique opportunity to promote the importance of cultural diversity and the significance of language as a means of communication, specifically within business.  
                     <br/>
                     <br/>
-                    This day provides a unique opportunity to promote the importance of cultural diversity and the significance of language as a means of communication. This day highlights the role of mother languages in shaping identities, connecting people, and preserving cultural heritage.
+                    Ideated during the summer portion of my internship, this project stems from my passion for world languages, cultures, and linguistics. As someone who is involved in a lot of the cultural organizations within Tippie, I realized how amazing students who are attending classes, completing homework, and connecting with others in English, despite their native language being completely different. It’s truly a superpower that most native English speakers do not recognize or appreciate.  
                     <br/>
                     <br/>
-                    International Mother Language Day also offers a platform to promote language learning, which is essential for personal growth, career advancement, and global citizenship. I believe that promoting language learning could be a valuable addition to any business's corporate social responsibility initiatives.
+                    Since this video is my own passion project, my supervisors gave me full responsibility to execute the idea. I coordinated the filming, recorded the footage, and edited the footage into the final video. 
                 </p>
             </div>
 
@@ -43,10 +43,13 @@
                 </div>
                 
                 <div class="project-box container-flex project-details">
-                    <h1 class="project-title"><a href="#">Tippie International Mother Language Day</a></h1>
+                    <h1 class="project-title"><a href="https://www.instagram.com/p/Co79nhyDYfF/?hl=en" target="_blank">Tippie International Mother Language Day</a></h1>
 
                     <p class="project-desc">
                     "Business is Global"
+                    <br/>
+                    <br/>
+                    Link to original post: <a class="desc-link" href="https://www.instagram.com/p/Co79nhyDYfF/?hl=en" target="_blank">https://www.instagram.com/p/Co79nhyDYfF/?hl=en</a>
                     </p>
                     
                     <p class="project-date">02/21/2023</p>
