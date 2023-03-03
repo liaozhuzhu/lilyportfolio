@@ -13,15 +13,17 @@
                 </p>
             </div>
 
-            <div class="experience-project container-flex">
-                <div class="project-box container-flex" id="story-gallery">
+            <div class="experience-project container-flex" id="story-container">
+                <div class=" project-box" id="story-gallery">
                     <img src="../static/stories/stories-1.png"/>
                     <img src="../static/stories/stories-2.png"/>
                     <img src="../static/stories/stories-3.png"/>
                     <img src="../static/stories/stories-4.png"/>
+                    <img src="../static/stories/stories-5.png"/>
+                    <img src="../static/stories/stories-6.png"/>
                 </div>
                 
-                <div class="project-box container-flex project-details">
+                <div class="project-box container-flex project-details" style="width: 50%;">
                     <h1 class="project-title"><a href="https://www.instagram.com/tippiecollege/">Tippie College of Business Instagram Stories</a></h1>
 
                     <p class="project-desc">
@@ -43,17 +45,28 @@ export default {
 </script>
 
 <style scoped>
+#story-container {
+    justify-content: center !important;
+}
 #story-gallery {
-    gap: 10px;
+  overflow-x: scroll;
+  white-space: nowrap;
+  width: 425px;
+}
+
+#story-gallery img {
+  display: inline-block;
+  width: 400px;
+  object-fit: cover;
 }
 
 @media only screen and (max-width: 550px) {
     #story-gallery {
-        flex-direction: column;
+        width: 325px;
     }
 
     #story-gallery img {
-        width: 100%;
+        width: 300px;
     }
 }
 </style>

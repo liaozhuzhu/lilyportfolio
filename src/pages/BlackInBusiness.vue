@@ -95,6 +95,46 @@
                     <p class="project-date">02/02/2023</p>
                 </div>
             </div>
+
+            <div class="experience-project container-flex">
+                    <div class="project-box container-flex">
+                        <video-player
+                            class="experience-video"
+                            src="./assets/tippie-intern/bib/bibteaser.mp4"
+                            poster=""
+                            crossorigin="anonymous"
+                            playsinline
+                            controls
+                            :loop="false"
+                            :volume="0.6"
+                            :playback-rates="[0.7, 1.0, 1.5, 2.0]"
+                            @mounted="handleMounted"
+                            @ready="handleEvent($event)"
+                            @play="handleEvent($event)"
+                            @pause="handleEvent($event)"
+                            @ended="handleEvent($event)"
+                            @loadeddata="handleEvent($event)"
+                            @waiting="handleEvent($event)"
+                            @playing="handleEvent($event)"
+                            @canplay="handleEvent($event)"
+                            @canplaythrough="handleEvent($event)"
+                            @timeupdate="handleEvent(player?.currentTime())"
+                        />
+                    </div>
+                
+                    <div class="project-box container-flex project-details">
+                        <h1 class="project-title"><a href="https://www.instagram.com/reel/CpN-rgwjkfy/?hl=en" target="_blank">Continuing the Conversation Teaser</a></h1>
+
+                        <p class="project-desc">
+                        Continuing change means continuing the conversation.
+                        <br/>
+                        <br/>
+                        Link to original post: <a class="desc-link" href="https://www.instagram.com/reel/CpN-rgwjkfy/?hl=en" target="_blank">https://www.instagram.com/reel/CpN-rgwjkfy/?hl</a>
+                        </p>
+                    
+                        <p class="project-date">02/28/2023</p>
+                    </div>
+                </div>
         </div>     
     </div>
 </template>
