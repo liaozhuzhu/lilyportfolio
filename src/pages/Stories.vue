@@ -14,16 +14,9 @@
             </div>
 
             <div class="experience-project container-flex" id="story-container">
-                <div class=" project-box" id="story-gallery">
-                    <img src="../static/stories/stories-1.png"/>
-                    <img src="../static/stories/stories-2.png"/>
-                    <img src="../static/stories/stories-3.png"/>
-                    <img src="../static/stories/stories-4.png"/>
-                    <img src="../static/stories/stories-5.png"/>
-                    <img src="../static/stories/stories-6.png"/>
-                </div>
+                <carousel :slides="slides" :interval="2000" controls indicators></carousel>
                 
-                <div class="project-box container-flex project-details" style="width: 50%;">
+                <div class="project-box container-flex project-details">
                     <h1 class="project-title"><a href="https://www.instagram.com/tippiecollege/">Tippie College of Business Instagram Stories</a></h1>
 
                     <p class="project-desc">
@@ -36,37 +29,26 @@
 </template>
   
 <script>
+import Carousel from "../components/carousel/CarouselVue.vue";
+
 export default {
     name: "StoriesVue",
+    components: { Carousel },
     created() {
         document.title="Stories | Lily Dosedel"
     },
+    data: () => ({
+        slides: [
+            "stories-1.png",
+            "stories-2.png",
+            "stories-3.png",
+            "stories-4.png",
+            "stories-5.png",
+            "stories-6.png",
+        ],
+    }),
 }
 </script>
 
 <style scoped>
-#story-container {
-    justify-content: center !important;
-}
-#story-gallery {
-  overflow-x: scroll;
-  white-space: nowrap;
-  width: 425px;
-}
-
-#story-gallery img {
-  display: inline-block;
-  width: 400px;
-  object-fit: cover;
-}
-
-@media only screen and (max-width: 550px) {
-    #story-gallery {
-        width: 325px;
-    }
-
-    #story-gallery img {
-        width: 300px;
-    }
-}
 </style>
