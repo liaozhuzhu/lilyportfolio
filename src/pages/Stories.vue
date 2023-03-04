@@ -14,7 +14,7 @@
             </div>
 
             <div class="experience-project container-flex" id="story-container">
-                <carousel :slides="slides" :interval="2000" controls indicators></carousel>
+                <carousel :slides="slides" :interval="2500" controls indicators></carousel>
                 
                 <div class="project-box container-flex project-details">
                     <h1 class="project-title"><a href="https://www.instagram.com/tippiecollege/">Tippie College of Business Instagram Stories</a></h1>
