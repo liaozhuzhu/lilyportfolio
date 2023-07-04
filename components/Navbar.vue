@@ -1,7 +1,7 @@
 <template>
     <div class="container flex column">
         <div>
-            <NuxtLink to="/"><img src="~/assets/imgs/LilyDosedel.svg" alt="logo" class=""/></NuxtLink>
+            <NuxtLink to="/"><img src="~/assets/imgs/LilyDosedel.svg" alt="logo" class="logo"/></NuxtLink>
         </div>
         <ul class="container flex column">
             <li><NuxtLink to="/">Home</NuxtLink></li>
