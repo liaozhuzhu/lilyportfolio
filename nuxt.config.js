@@ -1,4 +1,6 @@
-export default {
+import { defineNuxtConfig } from 'nuxt';
+
+export default defineNuxtConfig({
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 
@@ -30,6 +32,8 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/typescript
     '@nuxt/typescript-build',
+    '@nuxtjs/tailwindcss', // Add this line
+    '@nuxtjs/color-mode', // Add this line
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -37,4 +41,17 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
-}
+
+  // Additional configuration from imported code
+  colorMode: {
+    classSuffix: '',
+  },
+  tailwindcss: {
+    cssPath: '~/assets/css/tailwind.css',
+    configPath: 'tailwind.config.js',
+    exposeConfig: false,
+    config: {},
+    injectPosition: 0,
+    viewer: true,
+  },
+});

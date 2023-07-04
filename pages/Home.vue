@@ -1,5 +1,5 @@
 <template>
-    <h1>Home</h1>
+    <Navbar/>
 </template>
 
 <script setup lang="ts">
