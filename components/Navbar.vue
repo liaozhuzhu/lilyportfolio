@@ -1,5 +1,5 @@
 <template>
-    <div class="container flex column">
+    <div class="container flex column p-10">
         <div>
             <NuxtLink to="/"><img src="~/assets/imgs/LilyDosedel.svg" alt="logo" class="logo"/></NuxtLink>
         </div>
@@ -17,3 +17,11 @@
 
 <script setup lang="ts">
 </script>
+
+<style>
+.logo {
+  width: 150px;
+}
+
+
+</style>

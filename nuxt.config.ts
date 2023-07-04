@@ -1,4 +1,14 @@
 export default ({
+  build: {
+    postcss: {
+      postcssOptions: {
+        plugins: {
+          tailwindcss: {},
+          autoprefixer: {},
+        },
+      },
+    },
+  },
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 
@@ -18,7 +28,9 @@ export default ({
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: [],
+  css: [
+    '@/assets/css/main.css',
+  ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [],
@@ -36,9 +48,6 @@ export default ({
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [],
-
-  // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {},
 
   // Additional configuration from imported code
   colorMode: {

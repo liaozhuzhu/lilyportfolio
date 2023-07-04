@@ -26,8 +26,4 @@ a {
 .container {
   height: 100vh;
 }
-
-.logo {
-  width: 150px;
-}
 </style>
