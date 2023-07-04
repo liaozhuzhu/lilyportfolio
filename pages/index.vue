@@ -1,9 +1,9 @@
 <template>
-  <h1>Hello World</h1>
+  <Home />
 </template>
 
 <script setup lang="ts">
-import { defineComponent } from 'vue'
+import Home from '@/pages/Home.vue'
 
 
 </script>
