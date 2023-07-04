@@ -1,5 +1,8 @@
 <template>
-    <h1>Explore</h1>
+    <div class="flex">
+        <Navbar/>
+        <h1>Explore</h1>
+    </div>
 </template>
 
 <script setup lang="ts">
