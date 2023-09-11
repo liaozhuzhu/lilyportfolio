@@ -6,7 +6,7 @@
         <div class="container-flex fullheight"  id="about">
             <img class="about-child" src="../static/images/about.jpg"/>
             <div class="about-child" id="desc">
-                <p>My name is Lily Dosedel, and I'm a second-year, University of Iowa student pursuing majors in Marketing and Business Analytics & Information Systems (BAIS) with a minor in Chinese. 
+                <p>My name is Lily Dosedel, and I'm a third-year, University of Iowa student pursuing majors in Marketing and Business Analytics & Information Systems (BAIS). 
                     <br/><br/>
                     Since coming to college, I've been able to experience a wide range of things and gain new insights on life. After joining various organizations focused on advancing diversity, equity, and inclusion (DEI) and cultural awareness, it's now part of my mission to advocate for those things within the spaces that I'm in. In addition, I've learned how to harness my natural inclination towards creativity into a career path I'm passionate about–marketing! I'm striving towards becoming a creative director for a brand. In the meantime, however, I'm eager to experience as much I can within my time in college. 
                     <br/><br/>
