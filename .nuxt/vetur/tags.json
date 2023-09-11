@@ -1,0 +1,20 @@
+{
+  "Highlights": {
+    "description": "Auto imported from components/Highlights.vue"
+  },
+  "Navbar": {
+    "description": "Auto imported from components/Navbar.vue"
+  },
+  "Post": {
+    "description": "Auto imported from components/Post.vue"
+  },
+  "Search": {
+    "description": "Auto imported from components/Search.vue"
+  },
+  "Stories": {
+    "description": "Auto imported from components/Stories.vue"
+  },
+  "Suggested": {
+    "description": "Auto imported from components/Suggested.vue"
+  }
+}

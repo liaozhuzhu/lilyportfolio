@@ -1,0 +1,51 @@
+[
+  {
+    "name": "Contact",
+    "path": "/Contact",
+    "component": "/Users/liaozhu/lilyportfolio/pages/Contact.vue",
+    "chunkName": "pages/Contact",
+    "_name": "_067c70e9"
+  },
+  {
+    "name": "Explore",
+    "path": "/Explore",
+    "component": "/Users/liaozhu/lilyportfolio/pages/Explore.vue",
+    "chunkName": "pages/Explore",
+    "_name": "_a4925448"
+  },
+  {
+    "name": "Home",
+    "path": "/Home",
+    "component": "/Users/liaozhu/lilyportfolio/pages/Home.vue",
+    "chunkName": "pages/Home",
+    "_name": "_be45e934"
+  },
+  {
+    "name": "Profile",
+    "path": "/Profile",
+    "component": "/Users/liaozhu/lilyportfolio/pages/Profile.vue",
+    "chunkName": "pages/Profile",
+    "_name": "_0ea3e9f2"
+  },
+  {
+    "name": "Recommendations",
+    "path": "/Recommendations",
+    "component": "/Users/liaozhu/lilyportfolio/pages/Recommendations.vue",
+    "chunkName": "pages/Recommendations",
+    "_name": "_ceb052ba"
+  },
+  {
+    "name": "Reels",
+    "path": "/Reels",
+    "component": "/Users/liaozhu/lilyportfolio/pages/Reels.vue",
+    "chunkName": "pages/Reels",
+    "_name": "_c1deabbc"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/liaozhu/lilyportfolio/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_578f84fb"
+  }
+]
